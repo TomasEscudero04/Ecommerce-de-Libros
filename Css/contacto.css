@@ -12,16 +12,8 @@ header{
     color: white;
 }
 
-main{
-    font-size: 17px;
-    font-weight: bold;
-}
-
-.col-sm-12{
-    border-radius: 5px;
-}
-
 footer{
+    margin-top: 100%;
     font-size: 10px;
     background-color: rgba(134, 56, 56, 0.911);
     height: 80px;
