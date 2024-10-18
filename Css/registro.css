@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgba(134, 56, 56, 0.911);
+    height: 80px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+
+main{
+    font-size: 17px;
+    font-weight: bold;
+}
