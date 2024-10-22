@@ -13,14 +13,38 @@
     </header>
     <main>
         <section class="container mt-4">
-            <h2>Deja tu comentario...</h2>
+          <h2 class="">Aquí hay un mapa con la ubicación de nuestra empresa.</h2>
+          <div class="mapa mb-5 d-flex flex-column align-items-center">
+            <iframe class="mb-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41163.09115854691!2d-83.83662766683383!3d39.93098607161163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883f5a588a827c09%3A0x3e740c175881afbb!2sSpringfield%2C%20Ohio%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1729637370977!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h3>Te dejamos una vista previa de nuestro lugar de trabajo.</h3>
+            <img class="border-4 border-dark" height="500" width="700" src="../Images/casa simpsons.jpg" alt="foto de la ubicacion de la empresa">
+          </div>
+            <h2>Dejanos tu consulta, sugerencia o duda.</h2>
             <h5 class="mt-3">Para hacerlo necesitas tener una cuenta en Bibliomax</h5>
             <div class="mb-3 mt-2">
-                <label for="exampleFormControlInput1" class="form-label fw-bold">Email</label>
+              <label for="asunto" class="form-label fw-bold fs-5">Asunto</label>
+              <div class="col-sm-10">
+                <select class="col-sm-12 p-1 border-2 border-black" name="asunto" id="asunto" required>
+                    <option value="">Seleccione su asunto</option>
+                    <option value="infolibros">Información sobre libros</option>
+                    <option value="compraonline">Mi compra online</option>
+                    <option value="problemas">Problemas o Sugerencias</option>
+                    <option value="mayor">Compras mayoristas</option>
+                    <option value="devolucion">Cancelaciones o devoluciones</option>
+                    <option value="otro">Otro</option>
+                </select>
+              </div>
+            </div>
+            <div class="mb-3 mt-2">
+                <label for="exampleFormControlInput1" class="form-label fw-bold fs-5">Apellido y Nombre</label>
+                <input type="text" class="form-control border-2 border-dark" id="exampleFormControlInput1" placeholder="Juan José Díaz">
+              </div>
+            <div class="mb-3 mt-2">
+                <label for="exampleFormControlInput1" class="form-label fw-bold fs-5">Email</label>
                 <input type="email" class="form-control border-2 border-dark" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
               </div>
               <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label fw-bold">Comentario</label>
+                <label for="exampleFormControlTextarea1" class="form-label fw-bold fs-5">Comentario</label>
                 <textarea class="form-control border-2 border-dark" id="exampleFormControlTextarea1" rows="3" maxlength="500" placeholder="Comentanos alguna duda o queja que tengas sobre nuestra página (max 500 caracteres)"></textarea>
               </div>
               <div class="d-flex">

@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: gray;
+    color: white;
+}
+
 header{
     background-color: #dc3545;
     height: 80px;
@@ -11,6 +16,7 @@ header{
     padding-top: 15px;
     color: white;
 }
+
 
 footer{
     margin-top: 200px;
@@ -20,4 +26,8 @@ footer{
     text-align: center;
     padding-top: 15px;
     color: white;
+}
+
+.col-sm-12{
+    border-radius: 5px;
 }
