@@ -20,12 +20,3 @@ main{
 .col-sm-12{
     border-radius: 5px;
 }
-
-footer{
-    font-size: 10px;
-    background-color: #dc3545;
-    height: 80px;
-    text-align: center;
-    padding-top: 15px;
-    color: white;
-}
