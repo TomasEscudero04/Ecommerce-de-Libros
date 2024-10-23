@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: gray;
-    color: white;
-}
 
 header{
     background-color: #dc3545;
@@ -20,6 +16,13 @@ header{
 main{
     font-size: 17px;
     font-weight: bold;
+}
+
+.registro{
+    color: white;
+    height: 40px;
+    background: linear-gradient(to right, #BDBBBE, #3F4146);
+    font-size: 30px;
 }
 
 .col-sm-12{
