@@ -76,6 +76,19 @@ footer{
 
 @media all and (max-width:756px){
 
+
+    .navbar{
+        height: 100px;
+    }
+    .img-barrio{
+        width: 400px;
+        height: 250px;
+    }
+    .mapa{
+        width: 400px;
+        height: 250px;
+    }
+
 }
 
 /* responsive para tablet */
