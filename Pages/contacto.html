@@ -6,21 +6,97 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Contacto</title>
     <link rel="stylesheet" href="../Css/contacto.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>aqui va el nav de fer</h1>
+      <nav class="navbar navbar-expand-sm navbar-dark navbar-gradient navbar-personalizada1">
+        <div class="container-fluid">
+        <div class="col-md-4 text-center">
+            <a class="navbar-brand" href="#">
+            <img src="../Images/logobibliomax1.png" alt="Logo" width="100">
+            </a>
+        </div>
+    
+        
+        <div class="col-md-4">
+            <form class="d-flex mx-auto my-auto w-100">
+            <input class="form-control" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-light" type="submit">Buscar</button>
+            </form>
+        </div>
+        
+        
+        <div class="col-md-4">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                <i class="bi bi-cart"></i> Carrito
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Registrarse</a>
+            </li>
+            <li class="nav-item">
+                <button class="btn btn-outline-light" type="button">Iniciar sesión</button>
+            </li>
+            </ul>
+        </div>
+        
+        </div>
+    </nav>
+    
+
+<!--Navbar 2-->
+    <!--Remover navbar-gradient-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-danger navbar-gradient2" style="margin-top: 95px;"> 
+        <div class="container-fluid"> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                    <li><a class="nav-link" href="#">Inicio</a></li>
+                    <div class="dropdown">
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categorias
+                        </a>
+                            <ul class="dropdown-menu bg-danger">
+                                <li><a class="dropdown-item" href="#">Fantasia</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Ciencia Ficcion</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Romance</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Misterios & Trhillers</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Drama</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Quienes somos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Preguntas Frecuentes</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     </header>
     <main>
+      <!-- ubicacion de la empresa -->
       <h2 class="ubicacion text-center">Podés encontrarnos en 📌</h2>
-        <section class="container mt-4">
-          <div class="mapa mb-5 d-flex flex-column align-items-center">
-            <iframe class="mb-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41163.09115854691!2d-83.83662766683383!3d39.93098607161163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883f5a588a827c09%3A0x3e740c175881afbb!2sSpringfield%2C%20Ohio%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1729637370977!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              <h3 class="fotobarrio">Te dejamos una vista previa de nuestro lugar de trabajo 👀</h3>
-            <img class="border-4 border-dark" height="500" width="700" src="../Images/casa simpsons.jpg" alt="foto de la ubicacion de la empresa">
+        <section class="container-fluid mt-4">
+          <div class="location mb-2 d-flex flex-column align-items-center">
+            <iframe class="mapa mb-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41163.09115854691!2d-83.83662766683383!3d39.93098607161163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883f5a588a827c09%3A0x3e740c175881afbb!2sSpringfield%2C%20Ohio%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1729637370977!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <h3 class="fotobarrio text-center mb-4">Te dejamos una vista previa de nuestro lugar de trabajo 👀</h3>
+            <img class="img-barrio border-4 border-black" height="500" width="700" src="../Images/casa simpsons.jpg" alt="foto de la ubicacion de la empresa">
           </div>
           <hr>
-            <h2>Dejanos tu consulta, sugerencia o duda.</h2>
+          <!-- consultas -->
+            <h2 class="consulta text-center">Dejanos tu consulta, sugerencia o duda.</h2>
             <p>- El horario de atención es de lunes a sábado de 9.00 a 19.00 (hora argentina, -0300 UTC)</p>
             <p>- Para consultas sobre tus compras en Bibliomax.com, podés escribirnos a bibliomax@tulibro.com o llamar a: +54 0381 4252525. No olvides tener el número de tu pedido a mano (lo podés consultar ingresar a tu cuenta o en el correo electrónico que recibiste luego de realizar el pedido).</p>
             <p>- Por otros temas y consultas, utilizá el seguiente formulario de contacto. Podrás elegir el tema de tu consulta en «Asunto».</p>
@@ -55,11 +131,12 @@
                 <label class="btn fw-bold text-light me-3 border-danger bg-danger border-3" for="btn-check-5">Enviar</label>
                 <input type="checkbox" class="btn-check" id="btn-check-5" checked autocomplete="off">
                 <label class="btn fw-bold text-light me-3 border-dark bg-dark border-3" for="btn-check-5">Crear Cuenta</label>
-                <p class="fs-5">👈 Para dejar un comentario necesitás tener una cuenta en Bibliomax, si no tenés una, creala aquí.</p>
+                <p class="fs-5 pt-sm-3">👈 Para dejar un comentario necesitás tener una cuenta en Bibliomax, si no tenés una, creala aquí.</p>
               </div>
               <hr>
+              <!-- preguntas frecuentes -->
               <div class="frecuentes">
-                <h3>Preguntas Frecuentes</h3>
+                <h3 class="preguntas text-center">Preguntas Frecuentes</h3>
                 <h5>¿Puedo cancelar un producto luego de realizada la compra?</h5>
                 <p>Podés ingresar al formulario de contacto y elegir el asunto “Cancelaciones y devoluciones”. No olvides indicar el número de orden de compra que recibiste por correo electrónico al realizar la compra.</p>
                 <h5>¿Puedo modificar la cantidad de un producto luego de realizada la compra?</h5>
@@ -77,15 +154,20 @@
     <footer class="bg-dark text-light py-4 mt-4">
       <div class="container">
           <div class="row">
+              <div class="col-md-2">
+                  <img src="../Images/logobibliomax1.png" alt="Logo" width="100" class="mb-3">
+              </div>
+          
               <!-- Sección Información de Contacto -->
-              <div class="col-md-4 mb-3">
+              <div class="col-md-3">
                   <h5>Contacto</h5>
                   <p><i class="bi bi-geo-alt-fill"></i> Dirección: Avenida Siempreviva 742, Springfield</p>
                   <p><i class="bi bi-telephone-fill"></i> Teléfono: +54 0381 4252525</p>
                   <p><i class="bi bi-envelope-fill"></i> Email: Bibliomax@tulibro.com</p>
               </div>
+  
               <!-- Sección Enlaces Rápidos -->
-              <div class="col-md-4 mb-3">
+              <div class="col-md-3">
                   <h5>Enlaces Rápidos</h5>
                   <ul class="list-unstyled">
                       <li><a href="#" class="text-light">Inicio</a></li>
@@ -94,8 +176,9 @@
                       <li><a href="#" class="text-light">Contacto</a></li>
                   </ul>
               </div>
+  
               <!-- Sección Redes Sociales -->
-              <div class="col-md-4 mb-3">
+              <div class="col-md-3">
                   <h5>Síguenos</h5>
                   <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
                   <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
@@ -103,8 +186,9 @@
                   <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
               </div>
           </div>
+  
           <div class="text-center mt-4">
-              <p>&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
+              <p>&copy; 2024 Bibliomax. Todos los derechos reservados, YA COMPRAME UN MALDITO LIBRO.</p>
           </div>
       </div>
   </footer>
@@ -117,5 +201,8 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

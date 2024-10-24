@@ -5,23 +5,59 @@
     
 }
 
-.ubicacion, .fotobarrio{
+.navbar{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.navbar-nav{
+    display: flex;
+    /* justify-content: flex-end; */
+    justify-content: center;
+}
+.navbar-gradient{
+    background: linear-gradient(to right, #bdbbbe, #3f4146);
+}
+
+.navbar-gradient2{
+    background: linear-gradient(to right, #e2939b, #e05d6a, #dc3545);
+}
+/* Navbar 2 */
+.navbar-nav.m-auto li{
+    margin-right: 80px;
+}
+.dropdown-item {
+    color: white !important;
+} 
+.dropdown-item:hover, .dropdown-item:focus{
+        background-color: #d8828b;
+}
+
+main{
+    padding-top: 150px;
+}
+
+.ubicacion, .fotobarrio, .consulta, .preguntas{
     color: white;
-    height: 40px;
+    height: 50px;
     background: linear-gradient(to right, #BDBBBE, #3F4146);
     font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.mapa{
+    border-radius: 10px;
+    border: 15px solid black;
+}
+
+.img-barrio{
+    border-radius: 10px;
+    border: 15px solid black;
 }
 
 .fotobarrio{
     width: 100%;
-}
-
-header{
-    background-color: #dc3545;
-    height: 80px;
-    text-align: center;
-    padding-top: 15px;
-    color: white;
 }
 
 .btn-check{
@@ -30,4 +66,8 @@ header{
 
 .col-sm-12{
     border-radius: 5px;
+}
+
+footer{
+    width: 100%;
 }
