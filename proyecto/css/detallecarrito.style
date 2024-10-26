@@ -1,0 +1,53 @@
+.detalle {
+    margin-top: 40px;
+}
+.detalle img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.detalle h2 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.detalle p {
+    margin-bottom: 20px;
+}
+.detalle .btn {
+    margin-right: 10px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.table {
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.btn-danger {
+    margin-top: 20px;
+}
+
+.fuego, .asonada {
+    width: 60px;
+    height: 70px;
+    margin-left: 30px;
+}
+
+p {
+    font-size: 13px;
+}
