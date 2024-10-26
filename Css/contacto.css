@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.navbar{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.navbar-nav{
+    display: flex;
+    /* justify-content: flex-end; */
+    justify-content: center;
+}
+.navbar-gradient{
+    background: linear-gradient(to right, #bdbbbe, #3f4146);
+}
+
+.navbar-gradient2{
+    background: linear-gradient(to right, #e2939b, #e05d6a, #dc3545);
+}
+/* Navbar 2 */
+.navbar-nav.m-auto li{
+    margin-right: 80px;
+}
+.dropdown-item {
+    color: white !important;
+} 
+.dropdown-item:hover, .dropdown-item:focus{
+        background-color: #d8828b;
+}
+
+main{
+    padding-top: 150px;
+}
+
+.ubicacion, .fotobarrio, .consulta, .preguntas{
+    color: white;
+    height: 50px;
+    background: linear-gradient(to right, #BDBBBE, #3F4146);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.mapa{
+    border-radius: 10px;
+    border: 15px solid black;
+}
+
+.img-barrio{
+    border-radius: 10px;
+    border: 15px solid black;
+}
+
+.fotobarrio{
+    width: 100%;
+}
+
+.btn-check{
+    color: white;
+}
+
+.col-sm-12{
+    border-radius: 5px;
+}
+
+footer{
+    width: 100%;
+}
+
+/* resposive para celular */
+
+@media all and (max-width:756px){
+
+
+    .navbar{
+        height: 100px;
+    }
+    .img-barrio{
+        width: 400px;
+        height: 250px;
+    }
+    .mapa{
+        width: 400px;
+        height: 250px;
+    }
+
+}
+
+/* responsive para tablet */
+
+@media all and (min-width:756px) and (max-width:991px){
+    #menu{
+        padding: 200px 20px 0px 20px;
+    }
+    .fotobarrio{
+        font-size: 25px;
+    }
+}
